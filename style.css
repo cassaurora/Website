@@ -1,0 +1,24 @@
+body {
+  background-color: #badae4;
+  color: DimGray;
+  font-family: 'Amiri', serif;
+}
+
+h1 {
+  color: CornflowerBlue;
+}
+
+header {
+  background-color: Azure;
+  color:DarkSlateGray;
+}
+
+section {
+  background-color: LightCyan;
+  color:DarkSlateGray;
+}
+
+footer {
+  background-color: CornflowerBlue;
+  color: white;
+}
