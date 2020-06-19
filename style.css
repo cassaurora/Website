@@ -46,14 +46,15 @@ footer p {
 h2 {
   font-size: 24px;
   text-align: center;
+  margin: 60px 0;
 }
 
 h3 {
   font-size: 50px;
   text-align: center;
   color: #0b697a;
-  line-height: 5;
-  /* text-decoration: underline; */
+  line-height: 30px;
+  margin: 60px 0;
 
 }
 
@@ -92,7 +93,7 @@ ul, ol {
 a:link,
 a:focus,
 a:active {
-  color:  #60b0ad;
+  color: #1c9685;
   text-decoration:none;
 }
 
@@ -147,7 +148,7 @@ img {
 }
 
 .round {
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .center {
@@ -173,8 +174,8 @@ img {
   background-size: cover;
 }
 
-header .media-icon {
-
+.social-media {
+text-align: justify;
 }
 
 .nav-button {
@@ -184,4 +185,24 @@ header .media-icon {
   padding:30px;
   line-height: 6;
   font-size: 32px;
+
+}
+
+.blog {
+  background-color: #e8f7f6;
+  color:DarkSlateGray;
+  border: 5px solid grey;
+  margin: 100px 200px;
+  padding: 50px 100px;
+}
+
+.banner-blog {
+  text-align: justify;
+  height: 250px;
+  background-image: url(images/cedar_banner.png);
+  background-size: cover;
+}
+
+section .media-icon {
+  font-size: 40px;
 }
